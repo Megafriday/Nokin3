@@ -24,6 +24,10 @@ function mainLoop() {
 		if (hanabis[i].kill) hanabis.splice(i, 1);
 	}
 
+	ctx.fillStyle = "#ffffff"
+	ctx.font = "30pt Verdana";
+	ctx.fillText(`花火の数：${hanabis.length}`, 100, 100, 300);
+
 	window.requestAnimationFrame(mainLoop);
 }
 mainLoop();
