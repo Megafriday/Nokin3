@@ -1,4 +1,4 @@
-# Hanabi2
+# Nokin3
 
 ## URL
 https://megafriday.github.io/Hanabi2/
