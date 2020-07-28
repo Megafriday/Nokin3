@@ -10,9 +10,9 @@ export class Hanabi {
 		this.y = y;
 		this.size = 10;
 
-		const angle = randomInt(1, 360) * Math.PI / 180;
-		this.vx = Math.sin(angle) * randomInt(1, 50);
-		this.vy = Math.cos(angle) * randomInt(1, 50);
+		const radian = randomInt(1, 360) * Math.PI / 180;
+		this.vx = Math.sin(radian) * randomInt(1, 50);
+		this.vy = Math.cos(radian) * randomInt(1, 50);
 
 		this.kill = false;
 	}
